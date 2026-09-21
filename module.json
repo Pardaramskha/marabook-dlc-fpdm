@@ -1,0 +1,274 @@
+{
+  "id": "fpdm",
+  "name": "FPDM",
+  "title": "Fiches de Personnages pour Dangereux Monomaniaques",
+  "version": "1.0.0",
+  "features": [
+    "Créez des fiches de personnages avancées depuis votre écran d'édition de fiche",
+    "Un système de fiche de personnage particulièrement détaillé avec des champs préconfigurés",
+    "Une gestion du personnage à niveau d'auteur pour mesurer son impact narratif",
+    "Une phénoménale perte de temps pour les plus pointilleux",
+    "De nouveaux succès"
+  ],
+  "sheet": {
+    "categories": ["Personnage"],
+    "button": "Créer une fiche FPDM",
+    "tab": "FPDM",
+    "papers": [
+      {
+        "title": "Général",
+        "fields": [
+          { "id": "name-author", "label": "Origine du nom/prénom", "hint": "de votre point de vue auteur. Pourquoi ce nom ?" },
+          { "id": "name-story", "label": "Origine du nom/prénom", "hint": "qui le lui a donné ? D'où provient-il ?" },
+          { "id": "nickname", "label": "Surnom, si applicable", "hint": "si oui, expliquer son origine" },
+          { "id": "nickname-liked", "label": "Le surnom est-il apprécié ?" }
+        ]
+      },
+      {
+        "title": "Domicile",
+        "fields": [
+          { "id": "address", "label": "Adresse actuelle" },
+          { "id": "tenure", "label": "Locataire ? Propriétaire ? Autre ?" },
+          { "id": "home", "label": "Brève description du domicile", "hint": "appartement ? maison ? autre ?" },
+          { "id": "cohabitation", "label": "Vit-iel avec quelqu'un ?" },
+          { "id": "location", "label": "Décrire l'emplacement" },
+          { "id": "ideal-home", "label": "Est-ce un domicile ou un emplacement idéal ?", "hint": "sinon, qu'aurait-iel préféré ?" },
+          { "id": "decor", "label": "Décor du domicile" }
+        ]
+      },
+      {
+        "title": "Quotidien",
+        "fields": [
+          { "id": "vehicle", "label": "Si applicable, conduit-iel ? Quel véhicule ?" },
+          { "id": "pets", "label": "Animaux de compagnie ?", "hint": "combien ? noms ?" },
+          { "id": "pets-care", "label": "Sont-ils importants et sont-ils bien traités ?" },
+          { "id": "income", "label": "Personne employée ? D'où tire-t-iel ses ressources ?" },
+          { "id": "job", "label": "Profession actuelle", "hint": "nature, temps passé" },
+          { "id": "job-satisfaction", "label": "Satisfaction au travail" },
+          { "id": "means", "label": "Moyens économiques" }
+        ]
+      },
+      {
+        "title": "Attraction et sentiments",
+        "fields": [
+          { "id": "orientation", "label": "Orientation sexuelle" },
+          { "id": "relationship", "label": "Situation amoureuse ou familiale", "hint": "durée de la relation, actuelle ou dernière en date" },
+          { "id": "pet-names", "label": "Surnoms affectifs donnés à lea partenaire, et par lea partenaire" },
+          { "id": "meeting", "label": "Comment se sont-iels rencontré·e·s ?" },
+          { "id": "children", "label": "Enfants" },
+          { "id": "children-relation", "label": "Décrire sa relation avec ses enfants" }
+        ]
+      },
+      {
+        "title": "Apparence physique",
+        "fields": [
+          { "id": "height-weight", "label": "Taille et poids" },
+          { "id": "body", "label": "Type de corps", "hint": "fin, athlétique, surpoids, pulpeux, musclé…" },
+          { "id": "eyes", "label": "Couleur des yeux" },
+          { "id": "hair-color", "label": "Couleur des cheveux", "hint": "préciser si la couleur actuelle n'est pas naturelle" },
+          { "id": "hair-texture", "label": "Texture des cheveux" },
+          { "id": "skin", "label": "Teint de la peau", "hint": "pâle, ivoire, bronzé, olive, rouge, brun…" },
+          { "id": "prosthetics", "label": "Besoins prothétiques ou oculaires", "hint": "lunettes, prothèse, audition…" },
+          { "id": "face", "label": "Forme du visage", "hint": "rond, ovale, joufflu, carré, maigre…" },
+          { "id": "marks", "label": "Particularités", "hint": "taches de rousseur, grains de beauté, cicatrices, tatouages…" },
+          { "id": "lookalike", "label": "Dans la vie réelle, à qui ressemble-t-iel le plus ?" }
+        ]
+      },
+      {
+        "title": "Habillage",
+        "fields": [
+          { "id": "clothes-wealth", "label": "Comment s'habille-t-iel en termes de richesse de vêtements ?" },
+          { "id": "clothes-style", "label": "Quel est son style vestimentaire général ?", "hint": "ouvragé, prude, formel, simple, excentrique…" },
+          { "id": "clothes-why", "label": "Pourquoi s'habiller de cette manière ?", "hint": "goût désintéressé, se faire remarquer, se fondre dans la masse…" },
+          { "id": "clothes-favorite", "label": "A-t-iel un vêtement préféré ?" },
+          { "id": "jewelry", "label": "Porte-t-iel des bijoux ou des accessoires ?" },
+          { "id": "grooming", "label": "Porte-t-iel un soin notable à son apparence, et pourquoi ?" },
+          { "id": "haircut", "label": "Coupe de cheveux" }
+        ]
+      },
+      {
+        "title": "Langage et locutions",
+        "fields": [
+          { "id": "speech-pace", "label": "Rythme de parole" },
+          { "id": "accent", "label": "Accent ou dialecte", "hint": "si pertinent" },
+          { "id": "voice", "label": "Ton de voix", "hint": "perçant, aigu, profond, grinçant, rauque…" },
+          { "id": "expressions", "label": "Expressions préférées" },
+          { "id": "swearing", "label": "Tendance à jurer" },
+          { "id": "vocabulary", "label": "Description générale de son vocabulaire" },
+          { "id": "tics", "label": "Tics de comportement", "hint": "confiant, tactile, volatile, nerveux…" },
+          { "id": "posture", "label": "Posture typique", "hint": "raide, droite, avachie, détendue…" },
+          { "id": "body-language", "label": "Langage corporel", "hint": "rare, sous pression, sous excitation, autre…" }
+        ]
+      },
+      {
+        "title": "Comportement au quotidien et talents",
+        "fields": [
+          { "id": "finances", "label": "Gestion des finances", "hint": "prudent, minutieux, endetté, au jour le jour…" },
+          { "id": "consumption", "label": "Habitudes de consommation", "hint": "alcool, tabagisme, drogues, mauvaise alimentation…" },
+          { "id": "addictions", "label": "Addictions" },
+          { "id": "morning", "label": "Routine matinale" },
+          { "id": "afternoon", "label": "Après-midi / journée de travail" },
+          { "id": "dinner", "label": "Dîner" },
+          { "id": "evening", "label": "Soirée" },
+          { "id": "night", "label": "Sommeil / nuit" },
+          { "id": "hobbies", "label": "Quels sont ses hobbies quotidiens ?", "hint": "sport, jeux, art…" },
+          { "id": "hidden-talents", "label": "Des talents cachés dont personne n'est au courant ?" },
+          { "id": "bad-at", "label": "En quoi est-iel mauvais·e ?" }
+        ]
+      },
+      {
+        "title": "Origine et famille",
+        "fields": [
+          { "id": "mother", "label": "Nom de la mère" },
+          { "id": "mother-presence", "label": "Présence dans sa vie" },
+          { "id": "mother-relation", "label": "Relation avec le personnage" },
+          { "id": "father", "label": "Nom du père" },
+          { "id": "father-presence", "label": "Présence dans sa vie" },
+          { "id": "father-relation", "label": "Relation avec le personnage" },
+          { "id": "step-parents", "label": "Beaux-parents ou parents adoptifs ?" },
+          { "id": "adoption", "label": "S'iel est adopté·e, sait-iel pourquoi ?" },
+          { "id": "siblings", "label": "Frères et sœurs", "hint": "inclure l'écart d'âge avec le personnage" },
+          { "id": "siblings-relation", "label": "Relations fraternelles" },
+          { "id": "nieces", "label": "Nièces et neveux" },
+          { "id": "in-laws", "label": "Famille par alliance" },
+          { "id": "extended-family", "label": "Autre qu'au-dessus, qui dans l'histoire fait partie de sa famille étendue ?" },
+          { "id": "chosen-family", "label": "Qui considèrerait-iel comme sa famille choisie ?" }
+        ]
+      },
+      {
+        "title": "Background",
+        "fields": [
+          { "id": "hometown", "label": "Ville natale" },
+          { "id": "childhood", "label": "Enfance joyeuse ? Troublée ? Terne ?", "hint": "le personnage s'en souvient-iel ?" },
+          { "id": "oldest-memory", "label": "Plus ancien souvenir" },
+          { "id": "happiest-memory", "label": "Plus joyeux souvenir" },
+          { "id": "saddest-memory", "label": "Plus triste souvenir" },
+          { "id": "school", "label": "Est-iel scolarisé·e ? Années d'études ?" },
+          { "id": "school-liked", "label": "A-t-iel aimé l'école ? Pourquoi ?" },
+          { "id": "childhood-moment", "label": "Moment le plus important de son enfance" },
+          { "id": "past-jobs", "label": "Emplois passés notables" },
+          { "id": "record", "label": "Casier judiciaire", "hint": "expliquer les condamnations et peines purgées" },
+          { "id": "first-crush", "label": "Premier crush / amour" },
+          { "id": "first-time", "label": "Première expérience sexuelle", "hint": "positive ou négative dans sa mémoire" },
+          { "id": "illnesses", "label": "Maladies ou accidents marquants", "hint": "et est-ce encore un élément qui l'affecte ?" },
+          { "id": "traumas", "label": "Traumatismes marquants", "hint": "et est-ce encore un élément qui l'affecte ?" }
+        ]
+      },
+      {
+        "title": "Relations avec les autres",
+        "fields": [
+          { "id": "best-friend", "label": "Meilleur·e ami·e" },
+          { "id": "close-friends", "label": "Autres ami·e·s proches" },
+          { "id": "treats-friends", "label": "Ses amis ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-strangers", "label": "Les étrangers ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-partner", "label": "Son ou sa partenaire ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-exes", "label": "Ses ex ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-children", "label": "Ses enfants ?", "hint": "si applicable", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-parents", "label": "Ses parents ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-family", "label": "Les autres membres de sa famille ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-same-gender", "label": "Les gens du même sexe ou genre ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-other-gender", "label": "Les gens d'un sexe ou genre opposé ou autre ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-kids", "label": "Les enfants ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-superiors", "label": "Ses supérieurs hiérarchiques ?", "hint": "patron, etc.", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-subordinates", "label": "Ses subalternes ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-rivals", "label": "Ses concurrents ou rivaux ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-authority", "label": "L'autorité ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "treats-poor", "label": "Les miséreux ?", "group": "En général, comment le personnage traite-t-iel…" },
+          { "id": "liked-trait", "label": "Quel trait de caractère est le plus apprécié par les autres ?", "group": "Regards croisés" },
+          { "id": "self-quality", "label": "Qu'est-ce qu'iel considère comme sa plus grande qualité ?", "group": "Regards croisés" },
+          { "id": "others-flaw", "label": "Qu'est-ce que les autres considèrent comme son plus gros défaut ?", "group": "Regards croisés" },
+          { "id": "self-flaw", "label": "Que considère-t-iel comme son plus gros défaut ?", "group": "Regards croisés" },
+          { "id": "secret-crushes", "label": "Attirances ou crushs secrets ?", "group": "Regards croisés" },
+          { "id": "love-model", "label": "Ses relations amoureuses sont-elles monogames « classiques » ou plutôt autres ?", "group": "Regards croisés" },
+          { "id": "sexual-behaviour", "label": "Son comportement sexuel est-il inhibé, expérimental, téméraire ou classique ?", "hint": "est-ce que ça a changé, et pourquoi ?", "group": "Regards croisés" },
+          { "id": "likes-least", "label": "Qui aime-t-iel le moins et pourquoi ?", "group": "Regards croisés" },
+          { "id": "likes-most", "label": "Qui aime-t-iel le plus et pourquoi ?", "group": "Regards croisés" },
+          { "id": "secret-hater", "label": "Qui lea déteste en secret ?", "group": "Regards croisés" },
+          { "id": "secret-lover", "label": "Qui l'aime en secret ?", "group": "Regards croisés" },
+          { "id": "admires", "label": "Qui admire-t-iel en secret (hors romance) et pourquoi ? Idole ?", "group": "Regards croisés" },
+          { "id": "influence", "label": "Qui est sa plus grande influence et pourquoi ?", "group": "Regards croisés" },
+          { "id": "misjudges", "label": "Personne qu'iel comprend mal ou juge mal", "group": "Regards croisés" },
+          { "id": "misjudged-by", "label": "Personne qui lea comprend mal ou juge mal", "group": "Regards croisés" },
+          { "id": "lost-contact", "label": "A-t-iel perdu contact avec des gens importants dans sa vie, et pourquoi ?", "group": "Regards croisés" },
+          { "id": "worst-breakup", "label": "Pire fin de relation", "hint": "amoureuse, amicale, professionnelle…", "group": "Regards croisés" },
+          { "id": "emotional-support", "label": "Qui est son support émotionnel majeur ?", "group": "Regards croisés" },
+          { "id": "rational-support", "label": "Qui est son support rationnel majeur ?", "group": "Regards croisés" },
+          { "id": "supports-whom", "label": "Est-iel un support émotionnel ou rationnel pour quelqu'un ? Qui ? Pourquoi ?", "group": "Regards croisés" }
+        ]
+      },
+      {
+        "title": "Mental, état d'esprit et convictions",
+        "fields": [
+          { "id": "psychology", "label": "Problèmes psychologiques", "hint": "phobie, dépression, narcissisme, TDAH…" },
+          { "id": "optimism", "label": "Optimiste ou pessimiste ?" },
+          { "id": "mbti", "label": "MBTI", "lines": 1 },
+          { "id": "confident-when", "label": "Quand se sent-iel le plus en confiance ?", "hint": "amis, boisson, seul·e…" },
+          { "id": "unconfident-when", "label": "Quand se sent-iel le moins en confiance ?", "hint": "foule, public, famille…" },
+          { "id": "approach", "label": "Est-iel prudent·e, courageu·x·se ou méfiant·e dans son approche de la vie ?" },
+          { "id": "priority", "label": "Quelle est sa plus grande priorité dans la vie ?" },
+          { "id": "die-for", "label": "Pour qui serait-iel prêt·e à mourir ?" },
+          { "id": "compassion", "label": "Est-iel plutôt compatissant·e ou égoïste ?" },
+          { "id": "philosophy", "label": "Sa philosophie personnelle résumée en une phrase ?" },
+          { "id": "embarrassing", "label": "Quel est son moment le plus embarrassant ?" },
+          { "id": "secret-wish", "label": "Quel est son vœu secret ?", "hint": "du type vœu irréalisable" },
+          { "id": "greatest-fear", "label": "Quelle est sa plus grande peur ?" },
+          { "id": "prejudices", "label": "A-t-iel des préjugés ?", "hint": "raciaux, culturels, religieux…" },
+          { "id": "politics-religion", "label": "Parti politique ou croyance religieuse, si applicable" },
+          { "id": "fate", "label": "Croit-iel au destin ?" },
+          { "id": "superstition", "label": "Est-iel superstitieu·x·se ?" },
+          { "id": "greatest-strength", "label": "Quelle est sa plus grande force ou qualité ?" },
+          { "id": "other-strengths", "label": "Autres qualités notables" },
+          { "id": "greatest-flaw", "label": "Quel est son plus grand défaut ?" },
+          { "id": "other-flaws", "label": "Autres défauts notables" },
+          { "id": "self-likes", "label": "Qu'est-ce qu'iel préfère à son sujet ?" },
+          { "id": "self-hates", "label": "Qu'est-ce qu'iel déteste à son sujet ?" },
+          { "id": "self-justified", "label": "Ces deux sentiments sont-ils justifiés ?" },
+          { "id": "perceived", "label": "Comment pense-t-iel que les autres lea perçoivent ? Est-ce justifié ?" },
+          { "id": "biggest-secret", "label": "Son plus grand secret" },
+          { "id": "secret-known", "label": "Quelqu'un est-iel au courant de ce secret ?" },
+          { "id": "biggest-regret", "label": "Plus grand regret" },
+          { "id": "other-regrets", "label": "Autres regrets" },
+          { "id": "achievement-self", "label": "Plus grand accomplissement", "hint": "sa perception" },
+          { "id": "achievement-others", "label": "Plus grand accomplissement", "hint": "au regard des autres" },
+          { "id": "quirks", "label": "Excentricités comportementales" },
+          { "id": "crisis", "label": "Comment réagit-iel aux situations de crise ?" },
+          { "id": "recurring-problem", "label": "Qu'est-ce qui est un problème régulier dans sa vie ?" },
+          { "id": "would-change", "label": "Que voudrait-iel le plus changer dans sa vie ? Pourquoi ?" },
+          { "id": "self-portrait", "label": "Écrire un paragraphe du personnage se décrivant iel-même", "lines": 10 }
+        ]
+      },
+      {
+        "title": "Narration",
+        "fields": [
+          { "id": "short-goal", "label": "Son but à court terme" },
+          { "id": "long-goal", "label": "Son but à long terme" },
+          { "id": "goal-plan", "label": "Planifie-t-iel d'accomplir ses buts ? Est-ce réalisable ?" },
+          { "id": "goal-others", "label": "Les gens autour d'iel seraient-iels affecté·e·s ? S'en inquiète-t-iel ?" },
+          { "id": "goal-obstacles", "label": "Comment réagirait-iel aux obstacles face à ses buts ?" },
+          { "id": "goal-dread", "label": "Quel événement bloquant redouterait-iel le plus ?" },
+          { "id": "goal-protect", "label": "Qu'est-ce qu'iel travaille activement à gagner, conserver ou protéger ?" }
+        ]
+      },
+      {
+        "title": "Goûts et favoris",
+        "columns": ["Préféré·e·s", "Détesté·e·s"],
+        "fields": [
+          { "id": "food", "label": "Nourriture" },
+          { "id": "drink", "label": "Boisson" },
+          { "id": "book", "label": "Livre" },
+          { "id": "activity", "label": "Activité" },
+          { "id": "sport", "label": "Sport" },
+          { "id": "possession", "label": "Possession" },
+          { "id": "place", "label": "Lieu" },
+          { "id": "music", "label": "Musique / chanson" },
+          { "id": "quote", "label": "Dicton / citation" }
+        ]
+      }
+    ]
+  },
+  "achievements": [
+    { "id": "fpdm-monomaniaque", "name": "Dangereux monomaniaque", "description": "Terminez entièrement une fiche de personnage avancée (FPDM).", "rule": "advanced-complete", "count": 1 },
+    { "id": "fpdm-social", "name": "Bossez dans le social, à ce stade", "description": "Remplissez tout ce qui peut l'être dans une fiche de personnage : champs, texte libre, relations, graph statistique, suivi et évolution, portrait — et sa fiche avancée (FPDM).", "rule": "sheet-complete" },
+    { "id": "fpdm-pas-obsessionnel", "name": "Définitivement pas obsessionnel", "description": "Terminez entièrement cinq fiches de personnage avancées (FPDM).", "rule": "advanced-complete", "count": 5 }
+  ]
+}

@@ -1,0 +1,2 @@
+# Le paquet se fabrique par build-mdlc.ps1 et se publie en asset de release.
+*.mdlc
