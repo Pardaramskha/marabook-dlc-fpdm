@@ -2,7 +2,7 @@
   "id": "fpdm",
   "name": "FPDM",
   "title": "Fiches de Personnages pour Dangereux Monomaniaques",
-  "version": "1.0.0",
+  "version": "0.5.0-beta",
   "features": [
     "Créez des fiches de personnages avancées depuis votre écran d'édition de fiche",
     "Un système de fiche de personnage particulièrement détaillé avec des champs préconfigurés",
